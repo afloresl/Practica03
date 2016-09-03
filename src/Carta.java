@@ -64,8 +64,14 @@ public class Carta {
 	public String getNombre(){return nombre;}
 	public void setNombre(String nuevoNombre){this.nombre = nuevoNombre;}
 	
-	public String getCoste(){return coste;}
-	public void setCoste(String nuevoCoste){this.coste = nuevoCoste;}
+	public String getMax_ataque(){return max_ataque;}
+	public void setMax_atque(String nuevoMax){this.max_ataque = nuevoMax;}
+
+	public String getMin_ataque(){return min_ataque;}
+	public void setMin_atque(String nuevoMin){this.min_ataque = nuevoMin;}
+
+	public String getNivel(){return nivel;}
+	public void setNivel(String nuevoNivel){this.nivel = nivel;}
 	
 	public String getImagen(){return imagen;}
 	public void setImagen(String nuevoImagen){this.imagen = nuevoImagen;}
